@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+}
+#content {
+    margin: 32px auto 0;
+    padding-bottom: 32px;
+    width: 935px;
+    height: 650px;;
+}
+#images {
+    width: 454px;
+    height: 618px;
+    margin-left: -20px;
+}
