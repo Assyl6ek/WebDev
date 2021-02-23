@@ -1,0 +1,24 @@
+<h3>
+	<a [title]="product.name + ' details'" [routerLink]="['/products', product.id]">
+		{{ product.name }}
+	</a>
+</h3>
+
+<a href="{{product.link}}"><img src="{{product.image}}"></a>
+
+	<p *ngIf="product.price">
+		Price: {{product.price | currency}}
+	</p>
+	<p *ngIf="product.rating">
+		Rating: {{product.rating}}
+	</p>
+
+	<p *ngIf="product.description">
+		Description: {{ product.description }}
+	</p>
+	<p *ngIf="product.link">
+	</p>
+
+	<button (click)="share(product)">
+    Share
+  </button>
