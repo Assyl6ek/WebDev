@@ -1,0 +1,19 @@
+div {
+  width: 100%;
+  text-align: center;
+}
+.list {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 25%;
+}
+.list div {
+  font-size: 25px;
+  border-radius: 5px;
+  padding: 4% 0;
+  margin: 1.5% 0;
+  background-image: linear-gradient(rgb(248, 234, 207), #fff8dc);
+  border-color: rgb(206, 168, 140);
+  border-style: solid;
+}
