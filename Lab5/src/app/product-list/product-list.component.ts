@@ -27,11 +27,7 @@ export class ProductListComponent implements OnInit {
     );
   }
   onRemove(removableProduct: product): void {
-    this.array = products.filter(
-      product =>
-        product.categoryId === this.categoryIdFromRoute &&
-        product != removableProduct
-    );
+    this.array = this.array.filter(product => product != removableProduct);
   }
   // onRemove(removable: product) {
   //   var i = 0;
