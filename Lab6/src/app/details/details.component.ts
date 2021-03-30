@@ -13,7 +13,7 @@ import {AlbumsService} from "../albums.service";
 })
 export class DetailsComponent implements OnInit {
 
-  album!: any;
+  album!: Album;
   loaded!: boolean;
   constructor(private route: ActivatedRoute, private location: Location, private albumsService: AlbumsService) {
 

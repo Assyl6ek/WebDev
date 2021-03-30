@@ -9,8 +9,8 @@ for(i = 0; i < items.length; i++){
     remove.appendChild(cross);
     items[i].appendChild(remove);
 }
-// var check = document.createElement('input');
-// check.type = "checkbox";
+var check = document.createElement('input');
+check.type = "checkbox";
 var deleteBtn = document.getElementsByClassName("delete");
 
 var items = document.getElementById("list");

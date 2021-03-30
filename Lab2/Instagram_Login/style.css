@@ -1,0 +1,231 @@
+body{
+	display: inline-block;
+	background-color: #F8F9F9;
+}
+#images{
+	float: left;
+	margin: 130px 20px 20px 250px;
+}
+h5{
+	padding-left: 50px;
+	color:gray;
+	font-family: 'Times New Roman', Times, serif;
+}
+article{
+	
+	margin: 20px 20px 20px 20px;
+}
+#text1{
+	color: rgb(153, 153, 153);
+}
+section{
+	width: 350px;
+	height: 410px;
+	background-color: rgb(255, 255, 255);
+}
+#section_1{
+	margin-left: 0px;
+	border: 1px solid #dbdbdb;
+	padding-bottom: -20px;
+	padding-top:-10px;
+	height: 415px;
+	margin-top: 80px;
+}
+#section_2{
+	width: 350px;
+	height: 20px;
+	background-color: rgb(250, 250, 250);
+}
+#section_3{
+	width: 310px;
+	height: 90px;
+	text-align: center;
+	padding-left: 40px;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid #dbdbdb;
+	margin-left: 0px;
+}
+
+#section_4 {
+	width: 350px;
+	height: 100px;
+	padding-left: 40px;
+	background-color:rgb(255, 255, 255);
+}
+#btn1{
+	height: 25.2px;
+	width: 248px;
+	background-color: rgba(0,149,246,.3);
+	margin-left: 50px;
+	border-radius: 4px;
+	color:white;
+	border-color:rgba(0,149,246,.3);
+	align-content: center;
+	padding-top: 4px;
+	padding-bottom: 5px;
+}
+#btn2{
+	height: 19.2px;
+	color: blue;
+	background-color: white;
+	text-align: center;
+}
+.content{
+	margin-left: 100px;
+	width: 400px;
+	color: rgb(77, 26, 26);
+}
+.form{
+	float:left;
+	margin: 50px 10px 10px 10px;
+}
+#f1{
+	align-self: center;
+	padding-top: 10px;
+	text-align:center;
+	color: rgb(153, 153, 153);
+}
+#instagram-h1{
+	font-family: serif;
+	padding-top: 30px;
+	text-align:center;
+	font-size: 32px;
+}
+
+li{
+	list-style: none;
+	float: left;
+}
+li a {
+	display: block;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+}
+#AppStore {
+	width: 136px;
+	height: 40px;
+	float: left;
+	margin-right: 9px;
+}
+#PlayMarket {
+	margin-right: 0;
+	width: 136px;
+	height: 40px;
+	float: left;
+}
+#photo {
+	padding-left: 40px;
+	align-content: center;
+	align-items: center;
+	margin-right: 25px;
+}
+#text1{
+	text-align: center;
+}
+#footer_box {
+    padding-top: 20px;
+}
+#footer {
+    color: #737373;
+    margin: 0 auto;
+    width: 980px;
+}
+#footer_list {
+    align-items: center;
+    display: flex;
+    padding-top: 8px;
+}
+#instagram_pages {
+    
+    margin-left: -20px;
+    font-size: 12px;
+    line-height: 14px;
+    margin: -2px 0 -3px;
+}
+#instagram_pages li {
+    line-height: 1.4;
+    padding-right: 0;
+    padding-left: 20px;
+    display: inline-block;
+}
+#instagram_pages li a {
+    cursor: pointer;
+    color: #8a8d91;
+    text-decoration: none;
+}
+#icon1 {
+    width: 12px;
+    height: 12px;
+    background-position: -65.5px -69px;
+    background-image: url(icons.png);
+    background-size: 170px 88px;
+    display: inline-block;
+}
+#icon2 {
+    width: 16px;
+    height: 16px;
+    background-position: -2.5px -67.5px;
+    background-image: url(icons.png);
+    background-size: 170px 88px;
+    display: inline-block;
+}
+#icon3 {
+	width: 18px;
+	height: 22px;
+	background-image: url(icons8-facebook-24.png);
+	display: inline-block;
+	padding: 0px 4px;
+	vertical-align: middle;
+}
+#list_first {
+    padding-left: 0;
+}
+#copyright_m {
+    
+    font-size: 11px;
+}
+li {
+    color: #8a8d91;
+    cursor: pointer;
+    text-align: -webkit-match-parent;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 0;
+}
+h2 {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+#foot {
+	background: #fff;
+	padding-bottom: 10px;
+}
+input {
+	width: 245px;
+	margin-left: -50px;
+	margin-top: -10px;
+	padding-top: 9px;
+	padding-bottom: 5px;
+	padding-left: 4px;
+	border: 1px solid grey;
+	background: rgba(var(--b3f,250,250,250),1);
+	border-radius: 2px;
+	font-style: inherit;
+}
+#pas {
+	text-align: center;
+	margin-top: 27px;
+	line-height: 14px;
+	font-size: 15px;
+}
+h4, h3 {
+	font-weight: 400;
+	font-size: 16px;
+}
+footer {
+	text-align: center;
+}
