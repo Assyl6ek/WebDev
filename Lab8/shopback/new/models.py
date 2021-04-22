@@ -9,7 +9,7 @@ class Product(models.Model):
     is_active = models.BooleanField()
 
     def to_json(self):
-        return {
+        return {    
             'id': self.id,
             'name': self.name,
             'price': self.price,
